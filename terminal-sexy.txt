@@ -1,28 +1,54 @@
-require "rubygems"
 
-string = "tomorrow"
-symbol = :tomorrow
-fixnum = 0
-float  = 0.00
-array  = Array.new
-array  = ['chris', 85]
-hash   = {"test" => "test"}
-regexp = /[abc]/
-
-# This is a comment
-class Person
-
-  attr_accessor :name
-
-  def initialize(attributes = {})
-    @name = attributes[:name]
-  end
-
-  def self.greet
-    "hello"
-  end
-end
-
-person1 = Person.new(:name => "Chris")
-print Person::greet, " ", person1.name, "\n"
-puts "another #{Person::greet} #{person1.name}"
+26 # Hybrid ( i think )
+27 # For the custom color scheme
+28 # foreground              = #c5c8c6
+29 # background              = #151515
+30 # cursor                  = #505050
+31 # color0                  = #282a2e
+32 # color1                  = #a54242
+33 # color2                  = #8c9440
+34 # color3                  = #de935f
+35 # color4                  = #5f819d
+36 # color5                  = #85678f
+37 # color6                  = #5e8d87
+38 # color7                  = #707880
+39 # color8                  = #505050
+40 # color9                  = #cc6666
+41 # color10                 = #b5bd68
+42 # color11                 = #f0c674
+43 # color12                 = #81a2be
+44 # color13                 = #b294bb
+45 # color14                 = #8abeb7
+46 # color15                 = #c5c8c6
+47 # color16                 = #d28445
+48 # color17                 = #8f5536
+49 # color18                 = #202020
+50 # color19                 = #303030
+51 # color20                 = #b0b0b0
+52 
+53 
+54 # For paper
+55 foreground              = #4D4D4C
+56 background              = #EEEEEE
+57 cursor                  = #7e705a
+58 color0  = #EDEDED
+59 color1  = #D7005F
+60 color2  = #90a959
+61 color3  = #D75F00
+62 color4  = #4271AE
+63 color5  = #8959A8
+64 color6  = #3E999F
+65 color7  = #4D4D4C
+66 color8  = #969694
+67 color9  = #D7005F	#RED
+68 color10 = #718C00	#GREEN
+69 color11 = #D75F00	#ORANGE/YELLOW
+70 color12 = #4271AE	#BLUE
+71 color13 = #8959A8	#MAGENTA
+72 color14 = #3E999F	#CYAN
+73 color15 = #4D4D4C
+74 #color16 = #d28b71
+75 #color17 = #bb9584
+76 #color18 = #534636
+77 #color19 = #645240
+78 #color20 = #b8afad
